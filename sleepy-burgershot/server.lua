@@ -60,8 +60,8 @@ RegisterNetEvent('sleepy-burgershot:server:Makemurdermeal', function()
 end)
 
 
-RegisterNetEvent("sleepy-burgershot:server:openmurdermeal")
-AddEventHandler("sleepy-burgershot:server:openmurdermeal", function(source, item)
+RegisterNetEvent("openmurdermeal")
+AddEventHandler("openmurdermeal", function(source, item)
 	local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     Player.Functions.AddItem('heartstopper', 2)
