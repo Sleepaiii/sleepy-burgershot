@@ -273,19 +273,6 @@ RegisterNetEvent("sleepy-burgershot:client:Makemilkshake", function()
             end)
         end)
 
-    --Client for murdermeal
-    RegisterNetEvent('sleepy-burgershot:client:openmurdermeal', function()
-        QBCore.Functions.Progressbar("meal_open", "Opening MurderMeal..", 5000, false, true, {
-            disableMovement = false,
-            disableCarMovement = false,
-            disableMouse = false,
-            disableCombat = true,
-        }, {}, {}, {}, function() 
-            TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items["murdermeal"], "remove")
-            TriggerServerEvent("sleepy-burgershot:server:openmurdermeal")
-        end)
-    end)
-
 
     --Meat shop -- might remove in future for laptop app
     RegisterNetEvent('sleepy-burgershot:client:mshop', function()
