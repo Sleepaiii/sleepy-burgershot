@@ -6,4 +6,4 @@ This is Not for any Specific MLO so if you decide to use this make sure to fix l
 
 https://github.com/Renewed-Scripts/Renewed-Banking
 
-https://github.com/jimathy/jim-payments
+https://github.com/jimathy/jim-payments -- Make sure to add your job to the config
